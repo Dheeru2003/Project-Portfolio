@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">R<span>u</span>in</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active-link">Home</a></li>
+
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    
+                    <li><a href="#services" class="nav__link">Services</a></li>
+                    
+                    <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                
+
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ui uil-times"></i>
+                </div>
+            </div>
+            <div class="nav__socials">
+                <a
+                href="https://www.facebook.com/yella.dheeraj.3/"
+                target="_blank"
+                class="nav__social-link">
+                    <i class="uil uil-facebook-f"></i>
+                </a>
+
+                <a
+                href="https://x.com/Dheeru_2003"
+                target="_blank"
+                class="nav__social-link">
+                    <i class="uil uil-twitter"></i>
+                </a>
+
+                <a
+                href="https://www.linkedin.com/in/yella-dheeraj-677148244/"
+                target="_blank"
+                class="nav__social-link">
+                    <i class="uil uil-linkedin"></i>
+                </a>
+
+                <a
+                href="https://www.instagram.com/dheeru764/"
+                target="_blank"
+                class="nav__social-link">
+                    <i class="uil uil-instagram"></i>
+                </a>
+
+            </div>
+            <div class="nav__btns">
+                <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+            <div class="home__content">
+                <span class="home__subtitle">
+                    Welcome to my Site
+                </span>
+                <h1 class="home__title">
+                    hye Myself Dheeraj <span>I am from Bhimavaram</span> based in INDIA
+                </h1>
+            </div>
+
+            <img src="portfolio-img1.jpg" alt="" class="home__img">
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+            <img src="portfolio-image.jpg" alt="" class="about__img">
+
+            <div class="about__content">
+                <h2 class="section__title">About me</h2>
+
+                <p class="about__discription">
+                    I am a passionate developer with a keen intrest in Machine Learning and Web Dev.
+
+                </p>
+                <div class="tabs__btns">
+                    <span class="tabs__btn tab__active" data-target="#skills">Main Skills</span>
+                    <span class="tabs__btn " data-target="#award">Award</span>
+                    <span class="tabs__btn" data-target="#experience">Experience</span>
+                    <span class="tabs__btn " data-target="#education">Education</span>
+                </div>
+                <div class="tabs__content">
+
+
+
+                    <div class="tabs__item tab__active" data-content id="skills">
+                        <div class="tabs__data grid">
+                            <p class="tabs__description">
+                                <span>User Experience in java Basic</span> -JAVA
+                                <!--<span>Delight the user and make it work.</span>-->
+                            </p>
+                            
+                            <p class="tabs__description">
+                                <span>Web and user interface design</span> -FrontEnd
+                                <!--<span>Websites, web Experiences</span> -->
+                            </p>
+
+                            <p class="tabs__description">
+                                <span>Machine Learning</span> -PYTHON
+                                <span>Supervised Learning</span>
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="tabs__item" data-content id="award">
+                        <div class="tabs__data grid">
+                            <p class="tabs__description">
+                                <span>Hackathon</span> -Winner
+                                <span>2022 - 2023</span>
+                            </p>
+                            
+                            <p class="tabs__description">
+                                <span>Intern</span> -JAVA SCRIPT
+                                <span>2022 - 2023</span>
+                            </p>
+
+                            <!--<p class="tabs__description">
+                                <span>Design nominees</span> -Site of the Day
+                                <span>2013 - 2014</span>-->
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="tabs__item" data-content id="experience">
+                        <div class="tabs__data grid">
+                            <!--<p class="tabs__description">
+                                <span>Sr. Front - end Engineer</span> -Google
+                                <span>2018 - Current</span>
+                            </p>
+                            
+                            <p class="tabs__description">
+                                <span>Front- end Engineer</span> -Microsoft
+                                <span>2017 - 2018</span>
+                            </p>
+
+                            <p class="tabs__description">
+                                <span>Software Engineer</span> -Alibaba
+                                <span>2013 - 2014</span>
+                            </p>-->
+                        </div>
+                    </div>
+
+
+                    <div class="tabs__item" data-content id="education">
+                        <div class="tabs__data grid">
+                            <p class="tabs__description">
+                                <span>MPC</span> -Tirumala
+                                <span>2019-2021</span>
+                            </p>
+                            
+                            <p class="tabs__description">
+                                <span>CSE</span> -Swarnandra Institute of Engineering & Technology
+                                <span>2021-2025</span>
+                            </p>
+
+                            <!--<p class="tabs__description">
+                                <span>Graphic Designer</span> -ABC Institute, Los Angeles, CA
+                                <span>2007</span>
+                            </p>-->
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services">
+        <h2 class="section__title">My awesome Service</h2>
+        <p class="section__description"> There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration.
+        </p>
+
+
+        <div class="services__container container grid ">
+            <div class="services__item"><i class="uil uil-rss-interface services__icon"></i>
+                <h3 class="services__title">Business Stratagy</h3>
+                <p class="services__description">
+                    I throw Myself down among the tall grass by the stream as I lie close to the earth.
+                </p>
+            </div>
+
+
+            <div class="services__item"><i class="uil uil-layer-group services__icon"></i>
+                <h3 class="services__title">Website Development</h3>
+                <p class="services__description">
+                    I throw Myself down among the tall grass by the stream as I lie close to the earth.
+                </p>
+            </div>
+
+
+            <div class="services__item"><i class="uil uil-users-alt services__icon "></i>
+                <h3 class="services__title">Marketing & Reporting</h3>
+                <p class="services__description">
+                    I throw Myself down among the tall grass by the stream as I lie close to the earth.
+                </p>
+            </div>
+
+
+            <div class="services__item"><i class="uil uil-rss-interface services__icon"></i>
+                <h3 class="services__title">Mobile Development</h3>
+                <p class="services__description">
+                    I throw Myself down among the tall grass by the stream as I lie close to the earth.
+                </p>
+            </div>
+
+            <div class="services__item"><i class="uil uil-rss-interface services__icon "></i>
+                <h3 class="services__title">Marketing & Reporting</h3>
+                <p class="services__description">
+                    I throw Myself down among the tall grass by the stream as I lie close to the earth.
+                </p>
+            </div>
+
+
+            <div class="services__item"><i class="uil uil-rss-interface services__icon"></i>
+                <h3 class="services__title">Mobile Developmenty</h3>
+                <p class="services__description">
+                    I throw Myself down among the tall grass by the stream as I lie close to the earth.
+                </p>
+            </div>
+
+
+
+        </div>
+
+
+      </section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <p class="section__description">
+            there are many varirations of passages of Lorem Ipsum available, but the majority have suffered alterations.
+        </p>
+        <div class="portfolio__container container grid">
+            <div class="portfolio__item">
+                <img src="assets/img/portfolio-1.jpg" alt="" class="portfolio__img"
+                />
+                
+
+                <div class="portfolio__data">
+                    <p class="portfolio__subtitle">Development</p>
+                    <h3 class="portfolio__title">Web Design</h3>
+                    <p class="portfolio__description">Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="portfolio__item">
+                <img src="assets/img/portfolio-2.jpg" alt="" class="portfolio__img"
+                />
+                
+
+                <div class="portfolio__data">
+                    <p class="portfolio__subtitle">Product Design</p>
+                    <h3 class="portfolio__title">App Development</h3>
+                    <p class="portfolio__description">Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="portfolio__item">
+                <img src="assets/img/portfolio-3.jpg" alt="" class="portfolio__img"
+                />
+                
+
+                <div class="portfolio__data">
+                    <p class="portfolio__subtitle">Computer Science</p>
+                    <h3 class="portfolio__title">Machine Learning</h3>
+                    <p class="portfolio__description">Research new clusters or pattern through Machine Learning</p>
+                </div>
+
+
+            </div>
+
+            <!--<div class="portfolio__item">
+                <img src="assets/img/portfolio-4.jpg" alt="" class="portfolio__img"
+                />
+                
+
+                <div class="portfolio__data">
+                    <p class="portfolio__subtitle">Development</p>
+                    <h3 class="portfolio__title">Web Design</h3>
+                    <p class="portfolio__description">Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="portfolio__item">
+                <img src="assets/img/portfolio-5.jpg" alt="" class="portfolio__img"
+                />
+                
+
+                <div class="portfolio__data">
+                    <p class="portfolio__subtitle">Development</p>
+                    <h3 class="portfolio__title">Web Design</h3>
+                    <p class="portfolio__description">Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+                </div>
+
+
+            </div>-->
+
+
+            <div class="portfolio__item">
+                <img src="assets/img/portfolio-6.jpg" alt="" class="portfolio__img"
+                />
+                
+
+                <div class="portfolio__data">
+                    <p class="portfolio__subtitle">Complex System Architect</p>
+                    <h3 class="portfolio__title">SYS ARCH</h3>
+                    <p class="portfolio__description">Complex System Builder</p>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+            <div class="contact__content">
+                <h2 class="section__title">Hire me</h2>
+
+                <p class="contact__description">
+                    I am available for freelance work. Connect with me via phone:
+                    <a href="tel:+919398315334">9398315334</a> 9398315334 or email:
+                    <a href="mailto:yelladheeraj@gmail.com">yelladheeraj@gmail.com</a>
+                </p>
+
+                <form class="contact__form" id="contact-form">
+                    <div class="contact__form-input">
+                        <input 
+                        type="text" 
+                        name="name" 
+                        placeholder="Your Name *"
+                        class="contact__input"
+                        id="contact-name"
+                        />
+                    </div>
+
+
+                    <div class="contact__form-input">
+                        <input 
+                        type="email" 
+                        name="email" 
+                        placeholder="your e-mail"
+                        class="contact__input"
+                        id="contact-email"
+                        />
+                    </div><div class="contact__form-input">
+                        <input 
+                        type="text" 
+                        name="subject" 
+                        placeholder="write subject"
+                        class="contact__input"
+                        id="contact-subject"
+                        />
+                    </div><div class="contact__form-input">
+                        <textarea name="message" id="contact-message" class="contact__input textarea" placeholder="Your Message"></textarea>
+                    </div>
+                    <input type="submit" value="Submit" class="btn"/>
+
+                    <p class="error__message" id="error-message">Error</p>
+
+                </form>
+            </div>
+
+            <img src="hire.jpg" class="contact__img"/>
+        </div>
+
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <a href="index.html" class="footer__logo">R<span>u</span>in</a>
+
+            <div class="footer__socials">
+                <a
+                href="https://www.facebook.com/yella.dheeraj.3/"
+                target="_blank"
+                class="footer__social-link">
+                    <i class="uil uil-facebook-f"></i>
+                </a>
+
+                <a
+                href="https://x.com/Dheeru_2003"
+                target="_blank"
+                class="footer__social-link">
+                    <i class="uil uil-twitter"></i>
+                </a>
+
+                <a
+                href="https://www.linkedin.com/in/yella-dheeraj-677148244/"
+                target="_blank"
+                class="footer__social-link">
+                    <i class="uil uil-linkedin"></i>
+                </a>
+
+                <a
+                href="https://www.instagram.com/dheeru764/"
+                target="_blank"
+                class="footer__social-link">
+                    <i class="uil uil-instagram"></i>
+                </a>
+
+            </div>
+            <p class="footer__copyright">&copy; 2024. All rights reserved. </p>
+        </div>
+
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+  </body>
+</html>
